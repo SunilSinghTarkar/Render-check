@@ -9,4 +9,9 @@ public class Controller {
 	public String hello() {
 		return "Hello render";
 	}
+	@GetMapping("welcome")
+	public String welcome() {
+	    return "<h1 style=\"background-color: yellow; text-align: center;\">Welcome to this website.</h1>";
+	}
+
 }
